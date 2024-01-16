@@ -20,18 +20,18 @@ public class ProcesamientoTextos {
 //    Output: "Eat;Sleep;Repeat"
 
     public static void main(String[] args) {
-       String[] input = {"break3ing news8:", "2A 1circle is round!"};
-       String output = transformarCadena(input);
-        System.out.println(output);
+//       String[] input = {"break3ing news8:", "2A 1circle is round!"};
+//       String output = transformarCadena(input);
+//        System.out.println(output);
 
     }
 
-    public static String transformarCadena(String[] input){
-        StringBuilder resultado = new StringBuilder();
-        for(String frase : input){
-            String[] palabras = frase.replaceAll("^a-zA-Z","").split("\\s+");
-        }
-    }
+//    public static String transformarCadena(String[] input){
+//        StringBuilder resultado = new StringBuilder();
+//        for(String frase : input){
+//            String[] palabras = frase.replaceAll("^a-zA-Z","").split("\\s+");
+//        }
+//    }
 
 
 }
