@@ -14,7 +14,7 @@ public class NumeroSuerte {
         int dia;
         int mes;
         int anio;
-        int numeroSuerte = 0; 
+        int numeroSuerte = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa el dia de tu nacimiento ");
         dia = sc.nextInt();

@@ -24,6 +24,6 @@ public class CalcularPrecio {
         System.out.println("Ingresa el porcentaje de IVA");
         porcentajeIva = sc.nextInt();
 
-        
+
     }
 }
