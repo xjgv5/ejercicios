@@ -1,5 +1,7 @@
 package Ejercicios;
 
+import java.util.Scanner;
+
 public class Secuenciales {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
