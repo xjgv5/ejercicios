@@ -13,7 +13,7 @@ public class EsMayuscula {
         cadena = sc.nextLine();
 
         resultado = cadena.equals(cadena.toUpperCase()) == true ? "mayuscula" : "minuscula";
-        
+
         System.out.println("La cadena capturada esta en " + resultado);
     }
 }
