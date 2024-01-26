@@ -7,25 +7,20 @@ import java.util.Scanner;
 public class NumeroCapicua {
     //identificando si un numero es capicua
     public static void main(String[] args) {
-        int numero;
-        ArrayList<Integer> numeroArreglo = new ArrayList<>();
-        ArrayList<Integer> numeroArregloReversa = new ArrayList<>();
-
         Scanner sc = new Scanner(System.in);
+        int n;
 
-        //System.out.println("Ingresa un numero : ");
-        //numero = sc.nextInt();
+        System.out.print("Introduzca número de 3 cifras: ");
+        n = sc.nextInt();
 
-        numero = 1234;
-
-        while (numero > 0){
-            numeroArregloReversa.add(numero % 10);
-            numero = numero / 10;
+        if (n >= 100 && n <= 999) {  //si el número tiene 3 cifras
+            if (n % 10 == n / 100) { //si la última cifra es igual a la primera
+                System.out.println("El número es capicúa");
+            } else {
+                System.out.println("El número no es capicúa");
+            }
+        } else { //si el número no tiene 3 cifras
+            System.out.println("No es un número de 3 cifras");
         }
-        for (int i = numeroArregloReversa.size(); i <= 0; i--){
-            numeroArreglo.add(numeroArregloReversa.get(i));
-        }
-        System.out.println(numeroArreglo);
-        System.out.println(numeroArregloReversa);
     }
 }
