@@ -13,8 +13,8 @@ public class NumeroCapicua {
         System.out.print("Introduzca número de 3 cifras: ");
         n = sc.nextInt();
 
-        if (n >= 100 && n <= 999) {  //si el número tiene 3 cifras
-            if (n % 10 == n / 100) { //si la última cifra es igual a la primera
+        if (n >= 100 && n <= 999) {
+            if (n % 10 == n / 100) { igual a la primera
                 System.out.println("El número es capicúa");
             } else {
                 System.out.println("El número no es capicúa");
